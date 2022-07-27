@@ -1,0 +1,32 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/hello/User
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/models/alexnet
+
+
+###
+
+GET http://127.0.0.1:8000/files/A.txt
+
+
+###
+
+GET http://127.0.0.1:8000/items/?skip=0&limit=10
+
+
+###
+GET http://127.0.0.1:8000/items/foo-item
+
+###
+GET http://localhost:8000/items/?q=foo&q=bar
+
+
